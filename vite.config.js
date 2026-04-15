@@ -9,12 +9,7 @@ export default defineConfig({
     // Configure PWA support
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: [
-        'favicon.svg',
-        'favicon.ico',
-        'apple-touch-icon.png',
-        'masked-icon.svg'
-      ],
+      includeAssets: [],
       manifest: {
         name: 'TARAN Boxing Club',
         short_name: 'TARAN',
